@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-child-process",
+  "version": "1.0.0",
+  "description": "",
+  "main": "parent.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "engineStrict": true,
+  "author": "Pradeep Sanjaya",
+  "license": "ISC",
+  "dependencies": {
+    "semver": "^7.5.4"
+  },
+  "check-node-version": "node check-node-version.js",
+  "preinstall": "npm run check-node-version"
+}
